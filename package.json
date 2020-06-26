@@ -1,0 +1,37 @@
+{
+  "name": "angus",
+  "version": "1.0.0",
+  "description": "no description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angusjiang/personBlog.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "angus_jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angusjiang/personBlog/issues"
+  },
+  "homepage": "https://github.com/angusjiang/personBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "^1.15.0",
+    "morgan": "~1.7.0",
+    "multer": "^1.2.1",
+    "mysql": "^2.12.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

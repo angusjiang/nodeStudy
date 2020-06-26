@@ -1,0 +1,35 @@
+*{
+    /*color: red;*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.clearfix:after {
+    clear: both;
+    height:0;
+    content: '';
+    overflow: hidden;
+    display: block;
+}
+.fl {
+    float: left;
+}
+.fr{
+    float: right;
+}
+html {
+    font-size: 16px;
+}
+.login, .register, .successInfo {
+    width: 80%;
+    margin: 100px auto;
+    max-width: 500px;
+}
+.submitL, .submitR{
+    width: 100%;
+    margin-top:20px;
+}
+.login .input, .register .input{
+    width: 100%;
+    margin: 2px;
+    padding: 4px;
+}

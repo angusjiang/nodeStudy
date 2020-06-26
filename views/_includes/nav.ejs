@@ -1,0 +1,27 @@
+<div class="ui secondary pointing menu">
+    <a href="/platform" class="it item <% if(isActive == '/platform') {%>active<%}%>">plateform</a>
+    <a href="/software" class="it item <% if(isActive == '/software') {%>active<%}%>">software </a>
+    <a href="/device" class="it item <% if(isActive == '/device') {%>active<%}%>">devices</a>
+    <div class="right menu">
+        <a class="ui item">欢迎光临，<span style="color:red;"><%= uname %></span></a>
+        <a id="logout" class="ui item">Logout </a>
+    </div>
+</div>
+<div class="clearfix">
+    <div class="fr">
+        <select class="ui dropdown" style="display:inline-block; height:2.6rem;">
+            <option value="2">网站：党建云</option>
+            <option value="3">网站：支部工作</option>
+        </select>
+        <div style="display:inline-block;">
+            <input style="height:2.6rem; padding-left: 5px;" id="startTime" class="date-field" type="text" value="" placeholder="请选择日期" name="start" />
+            <div id="start-date-container" style="position: absolute;"></div>
+        </div>
+        <span>至</span>
+        <div  style="display:inline-block;">
+            <input style="height:2.6rem;  padding-left: 5px;" id="endTime" class="date-field" type="text" value="" placeholder="请选择日期" name="end" />
+            <div id="start-date-container" style="position: absolute;"></div>
+        </div>
+        <button id="getTime" class="ui primary button" style="height:2.6rem;">确 定</button>
+    </div>
+</div>
